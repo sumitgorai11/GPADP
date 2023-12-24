@@ -1,0 +1,248 @@
+
+.admissionarea{
+    background:rgb(255, 255, 255) ;
+    text-align:center;
+    padding:48px 0;
+}
+.admissionarea p{
+    text-align:justify;
+}
+.admissionarea h4{
+    text-align:left;
+}
+.admissionarea table{
+    border:solid 1px black;
+    width:100%;
+    margin:20px 0;
+}
+.admissionarea table tr th,.admissionarea table tr td{
+    border:solid 1px rgb(218, 215, 215);
+    padding:10px 0;
+}
+.admissionarea table tr th{
+    background:#C25B56;
+    color:white;
+}
+.admissionarea table tr th:nth-child(2n+1),.admissionarea table tr td:nth-child(2n+1){
+    text-align: left;
+    padding-left:10px;
+}
+.admissionarea table tr td:nth-child(2n){
+    text-align:right;
+    padding-right:10px;
+}
+.admissionarea table tr:last-child{
+    font-weight:bold;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toparea {
+    background: #AD524D;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.logoarea {
+    background: #F2C38B;
+    padding: 48px 0;
+    text-align: center;
+}
+
+.logoarea img {
+    height: 110px;
+}
+
+.logoarea h1 {
+    color: #74353F;
+}
+
+.logoarea h4 {
+    color: #212529;
+}
+
+.menuarea {
+    padding: 6px 0;
+    text-align: center;
+}
+
+.menuarea ul {
+    margin-left: 100px;
+}
+
+.menuarea i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.drop {
+    margin-left: 50px;
+    border: solid 2px #373de4;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.drop:hover {
+    background: #3835d7;
+    color: white;
+    font-weight: bold;
+}
+
+.slidearea {
+    padding: 10px 50px;
+
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.principalarea {
+
+    padding: 66px 0;
+    text-align: center;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.principalarea p {
+    text-align: justify;
+}
+
+.principalarea p:last-child {
+    text-align: right;
+}
+
+/* .course{ 
+    padding:55px 0;
+    
+    background:url("bg.jpg");
+    width: 100%;
+    height: 100%;
+/* } */
+
+.course {
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg");
+    background-size: cover;
+    padding: 75px 0;
+
+}
+
+.course col {
+    padding: 20px;
+}
+
+.course p {
+    color: #63646E;
+    align-content: center;
+    padding: 0px;
+
+}
+
+.course span {
+    color: #754057;
+}
+
+
+.box {
+    padding: 20px 0;
+    margin: 15px 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    overflow: hidden;
+}
+
+.box img {
+    margin: 20px 0px;
+    height: 150px;
+    transition: all 2s;
+    border-radius: 50%;
+}
+
+.box:hover img {
+    transform: rotate(360deg);
+}
+
+.alumni {
+    padding: 100px 0;
+    background-image: url("http://gpadp.org.in/alumnibg.c44739f2d7dcb5d0.jpg");
+    text-align: center;
+    background-position: bottom center;
+}
+
+.footerarea {
+    background-color: #1B1B1B;
+    padding: 44px 0;
+}
+
+.footerarea h5 {
+    color: #FFFFFF;
+    border-left: solid 5px white;
+    padding-left: 10px;
+}
+
+.footerarea p {
+    color: #F2A447;
+}
+
+.footerarea ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footerarea ul li {
+    color: #B07157;
+    margin: 5px 0;
+}
+
+.footerarea ul li a:hover {
+    transform: translate(10px, 0);
+}
+
+.footerarea a:link,
+.footerarea a:visited {
+    color: #D37C49;
+    text-decoration: none;
+    transition: all 0.5s;
+    display: block;
+    padding: 2px 0;
+}
+
+#call a:hover {
+    color: #F2C38B;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.joinbtn {
+    cursor: pointer;
+}
+
+.joinbtn div {
+    position: relative;
+    display: inline-block;
+    color: #915B41;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite;
+}
+
+#footerarea1 {
+    padding: 0.5px 0;
+    width: 100%;
+    background: linear-gradient(to left, transparent, white, transparent);
+    margin: 20px 0;
+}
+
+#bottomarea p {
+    text-align: center;
+    color: white;
+}
